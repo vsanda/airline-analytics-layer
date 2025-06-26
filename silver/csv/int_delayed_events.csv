@@ -1,0 +1,11 @@
+flight_id,flight_day,flight_status,delay_minutes,route_id,supplier_id,delivery_status,crew_flag,delay_category,cost_per_minute
+FL7208,2025-05-26,on-time,0,RT4127,S001,delayed,False,supplier,15
+FL4773,2025-04-07,delayed,71,RT0983,S001,on-time,False,supplier,10
+FL8734,2025-06-20,delayed,26,RT0983,S001,delayed,True,crew,25
+FL2825,2025-06-11,on-time,0,RT2741,S001,on-time,True,crew,25
+FL1288,2025-04-07,on-time,0,RT4127,S001,on-time,True,crew,25
+FL9519,2025-05-20,on-time,0,RT0983,S001,on-time,True,crew,25
+FL3561,2025-04-10,delayed,88,RT2741,S001,on-time,True,crew,25
+FL6596,2025-04-05,delayed,62,RT8820,S001,delayed,False,supplier,15
+FL4177,2025-05-16,on-time,0,RT0983,S001,delayed,False,supplier,15
+FL9323,2025-05-15,on-time,0,RT0983,S001,delayed,True,crew,25

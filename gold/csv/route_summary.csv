@@ -1,0 +1,5 @@
+route_id,origin,destination,num_flights,avg_revenue,avg_cost,avg_margin,avg_profit_pct,delay_count,avg_delay_minutes
+RT8820,LAX,HND,1,167783.45,59783.04,108000.41,64.37,1,62.0
+RT0983,SFO,SEA,5,123928.05,28424.53,95503.52,75.69,2,48.5
+RT2741,JFK,LAX,2,95924.2,27863.03,68061.17,70.88,1,88.0
+RT4127,BOS,MIA,2,65087.85,28078.77,37009.08,49.42,0,

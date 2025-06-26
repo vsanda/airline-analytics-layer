@@ -1,0 +1,7 @@
+supplier_id,category,total_cost,delay_count,avg_unit_cost,status_flag
+S001,fuel,58135.28,1,5813.528,fine
+S005,maintenance,8014.69,1,2671.563333333333,fine
+S004,fuel,58135.28,2,5813.528,fine
+S002,maintenance,9234.14,1,2308.535,fine
+S006,catering,42359.93000000001,0,5294.991250000001,fine
+S003,catering,34540.93,1,4934.418571428571,fine

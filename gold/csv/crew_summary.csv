@@ -1,0 +1,11 @@
+flight_id,route_id,aircraft_type,num_crew,?column?,flight_hours,crew_cost_total,role_mix,crew_flag
+FL7208,RT4127,narrow-body,1,670.0,6.39,4281.3,2P / 2A,False
+FL2825,RT2741,narrow-body,1,661.4,3.52,2328.13,2P / 2A,True
+FL9519,RT0983,narrow-body,1,656.6,6.1,4005.26,2P / 2A,True
+FL4177,RT0983,narrow-body,1,650.1,2.48,1612.25,2P / 2A,False
+FL6596,RT8820,wide-body,1,642.6,7.7,4948.02,2P / 2A,False
+FL4773,RT0983,wide-body,1,653.7,4.44,2902.43,2P / 2A,False
+FL9323,RT0983,wide-body,1,672.3,1.21,813.48,2P / 2A,True
+FL1288,RT4127,regional jet,1,644.0,3.17,2041.48,2P / 2A,True
+FL8734,RT0983,narrow-body,1,655.8,3.04,1993.63,2P / 2A,True
+FL3561,RT2741,narrow-body,1,668.9,2.97,1986.63,2P / 2A,True
