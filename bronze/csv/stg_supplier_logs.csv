@@ -1,0 +1,26 @@
+order_id,supplier_id,supplier,service_type,aircraft_id,order_date,expected_delivery,supplier_flagged,delivery_status,cost_usd,flight_id,flight_day,recorded_at
+ORD-2d78b3c8,S002,Harris LLC JetFuel,fuel,AC5682,2025-06-29,2025-07-02,False,on-time,944.97,FL8121,2025-06-25,2025-07-02 14:56:31.365734
+ORD-dc1f25eb,S005,Brooks LLC Aircraft Maintenance,maintenance,AC5682,2025-06-06,2025-07-06,False,on-time,4191.02,FL8121,2025-06-25,2025-07-02 14:56:31.365915
+ORD-28698bf5,S008,Ramsey-Williams Inflight Catering,catering,AC5682,2025-06-05,2025-07-04,False,on-time,4432.85,FL8121,2025-06-25,2025-07-02 14:56:31.365952
+ORD-9bfb46c7,S001,"Mcdonald, Turner and Jensen JetFuel",fuel,AC4686,2025-06-13,2025-07-06,False,on-time,8654.77,FL7598,2025-06-25,2025-07-02 14:56:31.366061
+ORD-a21b40d3,S005,Brooks LLC Aircraft Maintenance,maintenance,AC4686,2025-06-02,2025-07-07,False,on-time,20408.17,FL7598,2025-06-25,2025-07-02 14:56:31.366095
+ORD-9bcfc99a,S008,Ramsey-Williams Inflight Catering,catering,AC4686,2025-06-07,2025-07-06,False,on-time,21530.23,FL7598,2025-06-25,2025-07-02 14:56:31.366127
+ORD-9ec834fe,S001,"Mcdonald, Turner and Jensen JetFuel",fuel,AC9250,2025-06-25,2025-07-16,False,on-time,853.36,FL4736,2025-06-25,2025-07-02 14:56:31.366214
+ORD-e71f1190,S006,White-Good AeroTech,maintenance,AC9250,2025-06-30,2025-07-15,False,on-time,4262.9,FL4736,2025-06-25,2025-07-02 14:56:31.366245
+ORD-6b0ed690,S008,Ramsey-Williams Inflight Catering,catering,AC9250,2025-06-10,2025-07-06,False,on-time,5004.54,FL4736,2025-06-25,2025-07-02 14:56:31.366274
+ORD-ff6c5bee,S003,Luna Ltd Propulsion Ltd.,fuel,AC7459,2025-06-15,2025-07-03,False,on-time,2424.64,FL1294,2025-06-25,2025-07-02 14:56:31.366352
+ORD-8c45419a,S004,"Sims, Michael and Wilkerson Aircraft Maintenance",maintenance,AC7459,2025-06-04,2025-07-04,False,on-time,9952.88,FL1294,2025-06-25,2025-07-02 14:56:31.366382
+ORD-16bcb997,S010,"Cox, Neal and Henderson JetBites",catering,AC7459,2025-06-27,2025-07-06,False,on-time,6504.94,FL1294,2025-06-25,2025-07-02 14:56:31.366410
+ORD-38aba605,S003,Luna Ltd Propulsion Ltd.,fuel,AC4266,2025-06-08,2025-07-14,False,on-time,4599.3,FL2792,2025-06-25,2025-07-02 14:56:31.366490
+ORD-5e226ac9,S005,Brooks LLC Aircraft Maintenance,maintenance,AC4266,2025-06-28,2025-07-11,False,on-time,19558.57,FL2792,2025-06-25,2025-07-02 14:56:31.366519
+ORD-cca125d8,S010,"Cox, Neal and Henderson JetBites",catering,AC4266,2025-06-13,2025-07-07,False,on-time,15969.3,FL2792,2025-06-25,2025-07-02 14:56:31.366548
+ORD-04613f67,S003,Luna Ltd Propulsion Ltd.,fuel,AC7421,2025-06-11,2025-07-15,True,delayed,1890.8,FL6133,2025-06-25,2025-07-02 14:56:31.366620
+ORD-05ac74d5,S005,Brooks LLC Aircraft Maintenance,maintenance,AC7421,2025-06-11,2025-07-07,True,delayed,9150.76,FL6133,2025-06-25,2025-07-02 14:56:31.366649
+ORD-413205dd,S010,"Cox, Neal and Henderson JetBites",catering,AC7421,2025-06-09,2025-07-16,True,delayed,7088.3,FL6133,2025-06-25,2025-07-02 14:56:31.366677
+ORD-cac29b68,S003,Luna Ltd Propulsion Ltd.,fuel,AC9894,2025-06-27,2025-07-11,False,on-time,2402.58,FL3865,2025-06-25,2025-07-02 14:56:31.366748
+ORD-8b355403,S004,"Sims, Michael and Wilkerson Aircraft Maintenance",maintenance,AC9894,2025-06-02,2025-07-08,False,on-time,17802.51,FL3865,2025-06-25,2025-07-02 14:56:31.366782
+ORD-64aa9e90,S008,Ramsey-Williams Inflight Catering,catering,AC9894,2025-06-23,2025-07-11,False,on-time,8462.63,FL3865,2025-06-25,2025-07-02 14:56:31.366810
+ORD-849054c1,S001,"Mcdonald, Turner and Jensen JetFuel",fuel,AC8469,2025-06-18,2025-07-03,False,on-time,4714.24,FL3708,2025-06-25,2025-07-02 14:56:31.366879
+ORD-854d2c65,S006,White-Good AeroTech,maintenance,AC8469,2025-06-23,2025-07-11,False,on-time,22586.35,FL3708,2025-06-25,2025-07-02 14:56:31.366908
+ORD-cc520fe1,S009,"Horn, Fitzgerald and Crawford CloudCatering",catering,AC8469,2025-07-01,2025-07-14,False,on-time,15357.91,FL3708,2025-06-25,2025-07-02 14:56:31.366938
+ORD-2a77432a,S002,Harris LLC JetFuel,fuel,AC9894,2025-06-05,2025-07-15,False,on-time,2210.02,FL8118,2025-06-26,2025-07-02 14:56:31.367009

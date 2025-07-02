@@ -1,11 +1,15 @@
 import pandas as pd
 import psycopg2
 import os
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Create export folders
-os.makedirs("gold/csv", exist_ok=True)
-os.makedirs("gold/html", exist_ok=True)
-os.makedirs("gold/excel", exist_ok=True)
+os.makedirs("bronze/csv", exist_ok=True)
+os.makedirs("bronze/html", exist_ok=True)
+os.makedirs("bronze/excel", exist_ok=True)
 
 # Connect using environment variables
 conn = psycopg2.connect(
@@ -16,11 +20,11 @@ conn = psycopg2.connect(
     port=os.getenv("DB_PORT")
 )
 
-def get_gold_views():
+def get_bronze_views():
     query = """
         SELECT table_name
         FROM information_schema.views
-        WHERE table_schema = 'dbt_gold'
+        WHERE table_schema = 'dbt_bronze'
         ORDER BY table_name;
     """
     df = pd.read_sql(query, conn)
@@ -28,20 +32,20 @@ def get_gold_views():
 
 def export_table(table_name):
     try:
-        query = f'SELECT * FROM dbt_gold."{table_name}" limit 25'  # quotes in case of camelCase or special chars
+        query = f'SELECT * FROM dbt_bronze."{table_name}" LIMIT 25;'
         df = pd.read_sql(query, conn)
-        df.to_csv(f"gold/csv/{table_name}.csv", index=False)
-        df.to_html(f"gold/html/{table_name}.html", index=False)
-        df.to_excel(f"gold/excel/{table_name}.xlsx", index=False)
-        print(f"Exported {table_name}")
+        df.to_csv(f"bronze/csv/{table_name}.csv", index=False)
+        df.to_html(f"bronze/html/{table_name}.html", index=False)
+        df.to_excel(f"bronze/excel/{table_name}.xlsx", index=False)
+        print(f"Exported {table_name} (25 rows)")
     except Exception as e:
         print(f"Failed to export {table_name}: {e}")
 
-# Automatically find all dbt_gold views
-gold_views = get_gold_views()
+# Automatically find all dbt_bronze views
+bronze_views = get_bronze_views()
 
 # Export all
-for view in gold_views:
+for view in bronze_views:
     export_table(view)
 
 conn.close()
