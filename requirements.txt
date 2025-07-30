@@ -2,3 +2,8 @@ pandas
 psycopg2-binary
 streamlit
 openpyxl
+dotenv
+matplotlib
+sqlalchemy
+tabulate
+numpy

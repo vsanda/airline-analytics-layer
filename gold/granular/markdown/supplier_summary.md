@@ -1,0 +1,27 @@
+| supplier_id   | flight_day   | category    |   total_cost |   delay_count |   avg_unit_cost | status_flag   |
+|:--------------|:-------------|:------------|-------------:|--------------:|----------------:|:--------------|
+| S002          | 2025-04-30   | fuel        |     15729.6  |             0 |         2621.6  | fine          |
+| S001          | 2025-06-11   | fuel        |     18473    |             0 |         2309.13 | fine          |
+| S003          | 2025-06-19   | maintenance |      7782.87 |             0 |         7782.87 | fine          |
+| S004          | 2025-06-30   | maintenance |    183286    |             1 |        14098.9  | investigate   |
+| S003          | 2025-05-16   | maintenance |     28163.3  |             0 |        14081.6  | investigate   |
+| S004          | 2025-07-16   | maintenance |     32519.6  |             0 |        16259.8  | investigate   |
+| S009          | 2025-06-11   | catering    |     73057.9  |             1 |        12176.3  | investigate   |
+| S006          | 2025-06-07   | maintenance |     53531.8  |             0 |        17843.9  | investigate   |
+| S004          | 2025-06-13   | maintenance |     20228.7  |             0 |         6742.88 | fine          |
+| S007          | 2025-07-08   | maintenance |     18544.3  |             0 |         6181.43 | fine          |
+| S002          | 2025-05-21   | fuel        |      9870.18 |             2 |         1645.03 | fine          |
+| S006          | 2025-06-27   | maintenance |     35827.2  |             1 |         5971.21 | fine          |
+| S004          | 2025-06-21   | maintenance |     34982.2  |             0 |         6996.45 | fine          |
+| S010          | 2025-05-16   | catering    |     61059.8  |             0 |        12212    | investigate   |
+| S007          | 2025-07-03   | maintenance |     10811.1  |             0 |         5405.57 | fine          |
+| S008          | 2025-06-23   | catering    |     46391.7  |             0 |         7731.96 | fine          |
+| S003          | 2025-07-10   | maintenance |     35300.1  |             0 |        11766.7  | investigate   |
+| S008          | 2025-07-19   | catering    |     44992.4  |             0 |        11248.1  | investigate   |
+| S003          | 2025-07-08   | fuel        |      8366.52 |             1 |         2091.63 | fine          |
+| S004          | 2025-06-07   | maintenance |     29015.9  |             2 |         9671.97 | fine          |
+| S006          | 2025-06-01   | maintenance |     28619.4  |             0 |         7154.86 | fine          |
+| S003          | 2025-06-16   | maintenance |     76312.5  |             0 |        19078.1  | investigate   |
+| S007          | 2025-07-15   | maintenance |      5157.49 |             0 |         5157.49 | fine          |
+| S008          | 2025-05-04   | catering    |     20969.1  |             1 |        10484.5  | investigate   |
+| S004          | 2025-05-29   | maintenance |     38681.1  |             1 |        12893.7  | investigate   |

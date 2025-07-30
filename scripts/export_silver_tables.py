@@ -2,6 +2,7 @@ import pandas as pd
 import psycopg2
 import os
 from dotenv import load_dotenv
+from sqlalchemy import create_engine
 
 # Load environment variables
 load_dotenv()
@@ -12,12 +13,9 @@ os.makedirs("silver/html", exist_ok=True)
 os.makedirs("silver/excel", exist_ok=True)
 
 # Connect using environment variables
-conn = psycopg2.connect(
-    dbname=os.getenv("DB_NAME"),
-    user=os.getenv("DB_USER"),
-    password=os.getenv("DB_PASSWORD"),
-    host=os.getenv("DB_HOST"),
-    port=os.getenv("DB_PORT")
+engine = create_engine(
+    f"postgresql+psycopg2://{os.getenv('DB_USER')}:{os.getenv('DB_PASSWORD')}"
+    f"@{os.getenv('DB_HOST')}:{os.getenv('DB_PORT')}/{os.getenv('DB_NAME')}"
 )
 
 def get_silver_views():
@@ -27,13 +25,18 @@ def get_silver_views():
         WHERE table_schema = 'dbt_silver'
         ORDER BY table_name;
     """
-    df = pd.read_sql(query, conn)
+    df = pd.read_sql(query, engine)
     return df['table_name'].tolist()
 
 def export_table(table_name):
     try:
         query = f'SELECT * FROM dbt_silver."{table_name}" LIMIT 25'
-        df = pd.read_sql(query, conn)
+        df = pd.read_sql(query, engine)
+
+        # Strip timezones for Excel support
+        for col in df.select_dtypes(include=["datetimetz"]).columns:
+                df[col] = df[col].dt.tz_convert(None)
+
         df.to_csv(f"silver/csv/{table_name}.csv", index=False)
         df.to_html(f"silver/html/{table_name}.html", index=False)
         df.to_excel(f"silver/excel/{table_name}.xlsx", index=False)
@@ -48,4 +51,3 @@ silver_views = get_silver_views()
 for view in silver_views:
     export_table(view)
 
-conn.close()

@@ -1,0 +1,5 @@
+flight_month,total_flights,total_delay_minutes,avg_delay_minutes,total_delay_cost,avg_delay_cost,total_crew_flags,total_supplier_flags
+2025-04-01,15,676,45.07,26460.45,1764.03,13.0,13.0
+2025-05-01,65,3520,54.15,165502.67,2546.19,65.0,65.0
+2025-06-01,112,5966,53.27,408788.68,3649.9,112.0,112.0
+2025-07-01,57,3150,55.26,267052.19,4685.13,57.0,57.0

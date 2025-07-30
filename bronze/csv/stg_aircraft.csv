@@ -1,16 +1,16 @@
 aircraft_id,model,manufacturer,aircraft_type,year_built,max_capacity,aircraft_status,fuel_efficiency_gph,inventory_date
-AC7432,Boeing 737-800,Boeing,narrow-body,2007,160,active,850.0,2025-07-02
-AC9250,Boeing 757-200,Boeing,narrow-body,2016,199,active,1000.0,2025-07-02
-AC4709,Airbus A350-900,Airbus,wide-body,2014,287,active,1350.0,2025-07-02
-AC7421,Airbus A321XLR,Airbus,narrow-body,2019,192,active,890.0,2025-07-02
-AC7979,CRJ700,Boeing,regional jet,2007,70,active,500.0,2025-07-02
-AC5682,Airbus A320neo,Airbus,narrow-body,2009,179,active,790.0,2025-07-02
-AC4686,Airbus A350-900,Airbus,wide-body,2008,307,active,1350.0,2025-07-02
-AC8469,Boeing 777-300ER,Boeing,wide-body,2017,328,active,1600.0,2025-07-02
-AC2907,Airbus A350-900,Airbus,wide-body,2021,323,active,1350.0,2025-07-02
-AC4674,Airbus A350-900,Airbus,wide-body,2017,324,active,1350.0,2025-07-02
-AC4266,Airbus A350-1000,Airbus,wide-body,2020,381,active,1450.0,2025-07-02
-AC9894,Airbus A321XLR,Airbus,narrow-body,2018,204,active,890.0,2025-07-02
-AC2808,Airbus A320neo,Airbus,narrow-body,2014,171,active,790.0,2025-07-02
-AC7608,Airbus A321XLR,Airbus,narrow-body,2018,192,active,890.0,2025-07-02
-AC7459,Airbus A320neo,Airbus,narrow-body,2005,180,active,790.0,2025-07-02
+AC6692,Airbus A321XLR,Airbus,narrow-body,2015,183,active,890.0,2025-07-25
+AC9548,Boeing 757-200,Boeing,narrow-body,2020,182,active,1000.0,2025-07-25
+AC5545,Boeing 757-200,Boeing,narrow-body,2007,194,active,1000.0,2025-07-25
+AC5517,Airbus A350-900,Airbus,wide-body,2014,294,active,1350.0,2025-07-25
+AC3879,Embraer E175,Boeing,regional jet,2013,84,active,550.0,2025-07-25
+AC4392,Airbus A320neo,Airbus,narrow-body,2015,152,active,790.0,2025-07-25
+AC6192,Embraer E175,Boeing,regional jet,2018,81,active,550.0,2025-07-25
+AC2035,Airbus A350-900,Airbus,wide-body,2015,315,active,1350.0,2025-07-25
+AC7731,Airbus A350-1000,Airbus,wide-body,2008,397,active,1450.0,2025-07-25
+AC2692,Airbus A320neo,Airbus,narrow-body,2017,152,active,790.0,2025-07-25
+AC7504,Embraer E175,Boeing,regional jet,2021,78,active,550.0,2025-07-25
+AC9038,Boeing 757-200,Boeing,narrow-body,2022,195,active,1000.0,2025-07-25
+AC5387,CRJ700,Boeing,regional jet,2018,71,active,500.0,2025-07-25
+AC1586,Boeing 737-800,Boeing,narrow-body,2021,166,active,850.0,2025-07-25
+AC9717,Airbus A350-1000,Airbus,wide-body,2006,387,active,1450.0,2025-07-25

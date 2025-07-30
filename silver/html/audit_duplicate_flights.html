@@ -1,0 +1,968 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>icao24</th>
+      <th>callsign</th>
+      <th>origin_country</th>
+      <th>time_position</th>
+      <th>last_contact</th>
+      <th>longitude</th>
+      <th>latitude</th>
+      <th>baro_altitude</th>
+      <th>is_on_ground</th>
+      <th>velocity_knots</th>
+      <th>heading_deg</th>
+      <th>vertical_rate_fpm</th>
+      <th>geo_altitude</th>
+      <th>squawk</th>
+      <th>is_spi</th>
+      <th>position_source</th>
+      <th>ingestion_time</th>
+      <th>flight_id</th>
+      <th>departure_time</th>
+      <th>arrival_time</th>
+      <th>origin_airport_code</th>
+      <th>destination_airport_code</th>
+      <th>route_id</th>
+      <th>distance_miles</th>
+      <th>region</th>
+      <th>route_category</th>
+      <th>flight_time_minutes</th>
+      <th>flight_status</th>
+      <th>delay_reason</th>
+      <th>delay_minutes</th>
+      <th>fixed_cost</th>
+      <th>aircraft_id</th>
+      <th>flight_day</th>
+      <th>row_num</th>
+      <th>duplicated_flag</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>800c47</td>
+      <td>VTLTD</td>
+      <td>India</td>
+      <td>2025-07-02 15:42:29</td>
+      <td>2025-07-02 15:42:29</td>
+      <td>13.7265</td>
+      <td>58.2697</td>
+      <td>7010.40</td>
+      <td>False</td>
+      <td>245.01</td>
+      <td>47.30</td>
+      <td>-0.33</td>
+      <td>7277.10</td>
+      <td>2524.0</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>2025-07-02 15:42:30</td>
+      <td>FL1013</td>
+      <td>2025-06-27 07:30:00</td>
+      <td>2025-06-27 14:45:00</td>
+      <td>JFK</td>
+      <td>CDG</td>
+      <td>RT6259</td>
+      <td>3625.0</td>
+      <td>International</td>
+      <td>Long-haul</td>
+      <td>435.0</td>
+      <td>on-time</td>
+      <td>None</td>
+      <td>0</td>
+      <td>16922.66</td>
+      <td>AC4709</td>
+      <td>2025-06-27</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>NaT</td>
+      <td>NaT</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>NaN</td>
+      <td>NaT</td>
+      <td>FL1042</td>
+      <td>2025-04-25 17:00:00</td>
+      <td>2025-04-25 19:02:00</td>
+      <td>None</td>
+      <td>None</td>
+      <td>RT6565</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>None</td>
+      <td>NaN</td>
+      <td>on-time</td>
+      <td></td>
+      <td>0</td>
+      <td>7238.33</td>
+      <td>AC7608</td>
+      <td>2025-04-25</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>471f69</td>
+      <td>WMT493</td>
+      <td>Hungary</td>
+      <td>2025-07-02 15:42:30</td>
+      <td>2025-07-02 15:42:30</td>
+      <td>-7.0436</td>
+      <td>39.2863</td>
+      <td>10523.22</td>
+      <td>False</td>
+      <td>205.91</td>
+      <td>243.11</td>
+      <td>-11.05</td>
+      <td>11155.68</td>
+      <td>446.0</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>2025-07-02 15:42:30</td>
+      <td>FL1198</td>
+      <td>2025-06-28 04:45:00</td>
+      <td>2025-06-28 06:47:00</td>
+      <td>SEA</td>
+      <td>DEN</td>
+      <td>RT6565</td>
+      <td>1024.0</td>
+      <td>Domestic</td>
+      <td>Medium-haul</td>
+      <td>122.0</td>
+      <td>on-time</td>
+      <td>None</td>
+      <td>0</td>
+      <td>7301.60</td>
+      <td>AC7432</td>
+      <td>2025-06-28</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>46d2f2</td>
+      <td>SEH5LE</td>
+      <td>Greece</td>
+      <td>2025-07-23 18:59:59</td>
+      <td>2025-07-23 18:59:59</td>
+      <td>24.0677</td>
+      <td>38.0530</td>
+      <td>1211.58</td>
+      <td>False</td>
+      <td>96.83</td>
+      <td>37.66</td>
+      <td>4.55</td>
+      <td>1257.30</td>
+      <td>6703.0</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>NaT</td>
+      <td>FL1288</td>
+      <td>2025-06-09 21:00:00</td>
+      <td>2025-06-10 00:41:00</td>
+      <td>SFO</td>
+      <td>ORD</td>
+      <td>RT6628</td>
+      <td>1846.0</td>
+      <td>Domestic</td>
+      <td>Medium-haul</td>
+      <td>221.0</td>
+      <td>on-time</td>
+      <td></td>
+      <td>0</td>
+      <td>9236.78</td>
+      <td>AC1586</td>
+      <td>2025-06-09</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>aa8a83</td>
+      <td>AAL333</td>
+      <td>United States</td>
+      <td>2025-07-02 15:42:29</td>
+      <td>2025-07-02 15:42:29</td>
+      <td>4.9816</td>
+      <td>41.0431</td>
+      <td>10058.40</td>
+      <td>False</td>
+      <td>254.60</td>
+      <td>273.48</td>
+      <td>0.00</td>
+      <td>10629.90</td>
+      <td>2056.0</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>2025-07-02 15:42:30</td>
+      <td>FL1294</td>
+      <td>2025-06-25 04:15:00</td>
+      <td>2025-06-25 09:12:00</td>
+      <td>JFK</td>
+      <td>LAX</td>
+      <td>RT4447</td>
+      <td>2475.0</td>
+      <td>Domestic</td>
+      <td>Medium-haul</td>
+      <td>297.0</td>
+      <td>on-time</td>
+      <td>None</td>
+      <td>0</td>
+      <td>9906.41</td>
+      <td>AC7459</td>
+      <td>2025-06-25</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>710071</td>
+      <td>SVA174</td>
+      <td>Saudi Arabia</td>
+      <td>2025-07-08 16:28:42</td>
+      <td>2025-07-08 16:28:42</td>
+      <td>23.1594</td>
+      <td>38.4268</td>
+      <td>10050.78</td>
+      <td>False</td>
+      <td>254.93</td>
+      <td>141.72</td>
+      <td>0.00</td>
+      <td>10645.14</td>
+      <td>6524.0</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>2025-07-08 16:28:42</td>
+      <td>FL1308</td>
+      <td>2025-06-14 21:45:00</td>
+      <td>2025-06-15 02:42:00</td>
+      <td>JFK</td>
+      <td>LAX</td>
+      <td>RT4447</td>
+      <td>2475.0</td>
+      <td>Domestic</td>
+      <td>Medium-haul</td>
+      <td>297.0</td>
+      <td>on-time</td>
+      <td>None</td>
+      <td>0</td>
+      <td>9334.02</td>
+      <td>AC7421</td>
+      <td>2025-06-14</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>486491</td>
+      <td>KLM58M</td>
+      <td>Kingdom of the Netherlands</td>
+      <td>2025-07-08 16:28:42</td>
+      <td>2025-07-08 16:28:42</td>
+      <td>2.5766</td>
+      <td>50.2743</td>
+      <td>10607.04</td>
+      <td>False</td>
+      <td>203.52</td>
+      <td>35.02</td>
+      <td>-7.48</td>
+      <td>10934.70</td>
+      <td>1000.0</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>2025-07-08 16:28:42</td>
+      <td>FL1423</td>
+      <td>2025-06-22 21:00:00</td>
+      <td>2025-06-23 01:57:00</td>
+      <td>JFK</td>
+      <td>LAX</td>
+      <td>RT4447</td>
+      <td>2475.0</td>
+      <td>Domestic</td>
+      <td>Medium-haul</td>
+      <td>297.0</td>
+      <td>on-time</td>
+      <td>None</td>
+      <td>0</td>
+      <td>9559.05</td>
+      <td>AC5682</td>
+      <td>2025-06-22</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>502d10</td>
+      <td>BTI15L</td>
+      <td>Latvia</td>
+      <td>2025-07-23 19:01:05</td>
+      <td>2025-07-23 19:01:05</td>
+      <td>15.1409</td>
+      <td>59.7893</td>
+      <td>10058.40</td>
+      <td>False</td>
+      <td>235.92</td>
+      <td>120.54</td>
+      <td>0.00</td>
+      <td>10347.96</td>
+      <td>NaN</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>NaT</td>
+      <td>FL1425</td>
+      <td>2025-04-28 19:00:00</td>
+      <td>2025-04-29 02:15:00</td>
+      <td>JFK</td>
+      <td>CDG</td>
+      <td>RT5145</td>
+      <td>3625.0</td>
+      <td>International</td>
+      <td>Long-haul</td>
+      <td>435.0</td>
+      <td>on-time</td>
+      <td></td>
+      <td>0</td>
+      <td>17486.65</td>
+      <td>AC7731</td>
+      <td>2025-04-28</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>3c6542</td>
+      <td>DLH1VC</td>
+      <td>Germany</td>
+      <td>2025-07-23 19:02:02</td>
+      <td>2025-07-23 19:02:02</td>
+      <td>6.7908</td>
+      <td>50.7603</td>
+      <td>10789.92</td>
+      <td>False</td>
+      <td>235.51</td>
+      <td>305.22</td>
+      <td>4.88</td>
+      <td>11056.62</td>
+      <td>2541.0</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>NaT</td>
+      <td>FL1579</td>
+      <td>2025-05-08 19:15:00</td>
+      <td>2025-05-09 00:12:00</td>
+      <td>JFK</td>
+      <td>LAX</td>
+      <td>RT6027</td>
+      <td>2475.0</td>
+      <td>Domestic</td>
+      <td>Medium-haul</td>
+      <td>297.0</td>
+      <td>on-time</td>
+      <td></td>
+      <td>0</td>
+      <td>9900.03</td>
+      <td>AC9038</td>
+      <td>2025-05-08</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>02005b</td>
+      <td>RAM851W</td>
+      <td>Morocco</td>
+      <td>2025-07-23 18:59:58</td>
+      <td>2025-07-23 18:59:58</td>
+      <td>-7.0521</td>
+      <td>42.0730</td>
+      <td>11277.60</td>
+      <td>False</td>
+      <td>264.91</td>
+      <td>194.74</td>
+      <td>-0.33</td>
+      <td>11780.52</td>
+      <td>NaN</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>NaT</td>
+      <td>FL1925</td>
+      <td>2025-06-26 11:15:00</td>
+      <td>2025-06-26 12:42:00</td>
+      <td>ATL</td>
+      <td>DFW</td>
+      <td>RT6421</td>
+      <td>732.0</td>
+      <td>Domestic</td>
+      <td>Short-haul</td>
+      <td>87.0</td>
+      <td>on-time</td>
+      <td></td>
+      <td>0</td>
+      <td>7043.02</td>
+      <td>AC9548</td>
+      <td>2025-06-26</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>4ca2bf</td>
+      <td>RYR25WC</td>
+      <td>Ireland</td>
+      <td>2025-07-23 18:59:59</td>
+      <td>2025-07-23 18:59:59</td>
+      <td>-0.0169</td>
+      <td>51.1376</td>
+      <td>6096.00</td>
+      <td>False</td>
+      <td>178.40</td>
+      <td>324.98</td>
+      <td>0.33</td>
+      <td>6240.78</td>
+      <td>2767.0</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>NaT</td>
+      <td>FL2020</td>
+      <td>2025-07-11 16:30:00</td>
+      <td>2025-07-12 09:23:00</td>
+      <td>SFO</td>
+      <td>SIN</td>
+      <td>RT7144</td>
+      <td>8446.0</td>
+      <td>International</td>
+      <td>Long-haul</td>
+      <td>1013.0</td>
+      <td>on-time</td>
+      <td></td>
+      <td>0</td>
+      <td>31868.37</td>
+      <td>AC7731</td>
+      <td>2025-07-11</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>0a008f</td>
+      <td>DAH1461</td>
+      <td>Algeria</td>
+      <td>2025-07-08 16:28:35</td>
+      <td>2025-07-08 16:28:39</td>
+      <td>5.0784</td>
+      <td>45.8131</td>
+      <td>1013.46</td>
+      <td>False</td>
+      <td>106.29</td>
+      <td>355.56</td>
+      <td>11.05</td>
+      <td>1120.14</td>
+      <td>5577.0</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>2025-07-08 16:28:42</td>
+      <td>FL2021</td>
+      <td>2025-06-29 11:15:00</td>
+      <td>2025-06-29 16:12:00</td>
+      <td>JFK</td>
+      <td>LAX</td>
+      <td>RT4447</td>
+      <td>2475.0</td>
+      <td>Domestic</td>
+      <td>Medium-haul</td>
+      <td>297.0</td>
+      <td>on-time</td>
+      <td>None</td>
+      <td>0</td>
+      <td>10131.62</td>
+      <td>AC7432</td>
+      <td>2025-06-29</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>4aca85</td>
+      <td>NSZ59T</td>
+      <td>Sweden</td>
+      <td>2025-07-08 16:28:42</td>
+      <td>2025-07-08 16:28:42</td>
+      <td>8.4247</td>
+      <td>56.6809</td>
+      <td>10972.80</td>
+      <td>False</td>
+      <td>248.78</td>
+      <td>234.77</td>
+      <td>-0.33</td>
+      <td>11125.20</td>
+      <td>6204.0</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>2025-07-08 16:28:42</td>
+      <td>FL2573</td>
+      <td>2025-06-09 16:30:00</td>
+      <td>2025-06-09 23:45:00</td>
+      <td>JFK</td>
+      <td>CDG</td>
+      <td>RT6259</td>
+      <td>3625.0</td>
+      <td>International</td>
+      <td>Long-haul</td>
+      <td>435.0</td>
+      <td>on-time</td>
+      <td>None</td>
+      <td>0</td>
+      <td>17877.64</td>
+      <td>AC4709</td>
+      <td>2025-06-09</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>452164</td>
+      <td>LZB973</td>
+      <td>Bulgaria</td>
+      <td>2025-07-23 19:00:42</td>
+      <td>2025-07-23 19:00:42</td>
+      <td>26.3563</td>
+      <td>43.1538</td>
+      <td>5928.36</td>
+      <td>False</td>
+      <td>218.73</td>
+      <td>84.20</td>
+      <td>-13.33</td>
+      <td>6301.74</td>
+      <td>NaN</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>NaT</td>
+      <td>FL2638</td>
+      <td>2025-06-26 16:15:00</td>
+      <td>2025-06-26 23:30:00</td>
+      <td>JFK</td>
+      <td>CDG</td>
+      <td>RT5145</td>
+      <td>3625.0</td>
+      <td>International</td>
+      <td>Long-haul</td>
+      <td>435.0</td>
+      <td>on-time</td>
+      <td></td>
+      <td>0</td>
+      <td>17555.71</td>
+      <td>AC5517</td>
+      <td>2025-06-26</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>405e23</td>
+      <td>TOM40X</td>
+      <td>United Kingdom</td>
+      <td>2025-07-02 15:42:29</td>
+      <td>2025-07-02 15:42:30</td>
+      <td>20.5769</td>
+      <td>44.0391</td>
+      <td>11277.60</td>
+      <td>False</td>
+      <td>240.17</td>
+      <td>122.67</td>
+      <td>0.00</td>
+      <td>11864.34</td>
+      <td>5535.0</td>
+      <td>True</td>
+      <td>0.0</td>
+      <td>2025-07-02 15:42:30</td>
+      <td>FL2644</td>
+      <td>2025-06-29 18:45:00</td>
+      <td>2025-06-30 11:38:00</td>
+      <td>SFO</td>
+      <td>SIN</td>
+      <td>RT9374</td>
+      <td>8446.0</td>
+      <td>International</td>
+      <td>Long-haul</td>
+      <td>1013.0</td>
+      <td>on-time</td>
+      <td>None</td>
+      <td>0</td>
+      <td>32268.80</td>
+      <td>AC4266</td>
+      <td>2025-06-29</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>4aca04</td>
+      <td>NOZ2FJ</td>
+      <td>Sweden</td>
+      <td>2025-07-08 16:28:36</td>
+      <td>2025-07-08 16:28:39</td>
+      <td>22.6252</td>
+      <td>46.5501</td>
+      <td>11277.60</td>
+      <td>False</td>
+      <td>215.72</td>
+      <td>135.48</td>
+      <td>0.33</td>
+      <td>11681.46</td>
+      <td>4506.0</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>2025-07-08 16:28:42</td>
+      <td>FL2660</td>
+      <td>2025-07-04 05:30:00</td>
+      <td>2025-07-04 09:11:00</td>
+      <td>SFO</td>
+      <td>ORD</td>
+      <td>RT5358</td>
+      <td>1846.0</td>
+      <td>Domestic</td>
+      <td>Medium-haul</td>
+      <td>221.0</td>
+      <td>on-time</td>
+      <td>None</td>
+      <td>0</td>
+      <td>8252.20</td>
+      <td>AC5682</td>
+      <td>2025-07-04</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>3cc247</td>
+      <td>AWH8L</td>
+      <td>Germany</td>
+      <td>2025-07-08 16:28:42</td>
+      <td>2025-07-08 16:28:42</td>
+      <td>3.8940</td>
+      <td>42.3961</td>
+      <td>11887.20</td>
+      <td>False</td>
+      <td>211.76</td>
+      <td>237.20</td>
+      <td>0.00</td>
+      <td>12466.32</td>
+      <td>1272.0</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>2025-07-08 16:28:42</td>
+      <td>FL2713</td>
+      <td>2025-06-12 08:00:00</td>
+      <td>2025-06-12 11:41:00</td>
+      <td>SFO</td>
+      <td>ORD</td>
+      <td>RT5358</td>
+      <td>1846.0</td>
+      <td>Domestic</td>
+      <td>Medium-haul</td>
+      <td>221.0</td>
+      <td>on-time</td>
+      <td>None</td>
+      <td>0</td>
+      <td>9198.14</td>
+      <td>AC7421</td>
+      <td>2025-06-12</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>4791ac</td>
+      <td>NOZ6LK</td>
+      <td>Norway</td>
+      <td>2025-07-23 19:00:13</td>
+      <td>2025-07-23 19:00:13</td>
+      <td>7.4102</td>
+      <td>43.3913</td>
+      <td>1882.14</td>
+      <td>False</td>
+      <td>134.79</td>
+      <td>258.78</td>
+      <td>-7.15</td>
+      <td>2011.68</td>
+      <td>732.0</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>NaT</td>
+      <td>FL2806</td>
+      <td>2025-06-26 16:15:00</td>
+      <td>2025-06-26 23:30:00</td>
+      <td>JFK</td>
+      <td>CDG</td>
+      <td>RT5145</td>
+      <td>3625.0</td>
+      <td>International</td>
+      <td>Long-haul</td>
+      <td>435.0</td>
+      <td>on-time</td>
+      <td></td>
+      <td>0</td>
+      <td>18716.93</td>
+      <td>AC2035</td>
+      <td>2025-06-26</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>3b7565</td>
+      <td>FAF4091</td>
+      <td>France</td>
+      <td>2025-07-23 18:59:59</td>
+      <td>2025-07-23 18:59:59</td>
+      <td>6.8297</td>
+      <td>43.3401</td>
+      <td>8092.44</td>
+      <td>False</td>
+      <td>198.61</td>
+      <td>234.17</td>
+      <td>-4.88</td>
+      <td>8488.68</td>
+      <td>6422.0</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>NaT</td>
+      <td>FL2886</td>
+      <td>2025-06-07 13:15:00</td>
+      <td>2025-06-07 20:30:00</td>
+      <td>JFK</td>
+      <td>CDG</td>
+      <td>RT5145</td>
+      <td>3625.0</td>
+      <td>International</td>
+      <td>Long-haul</td>
+      <td>435.0</td>
+      <td>on-time</td>
+      <td></td>
+      <td>0</td>
+      <td>17678.79</td>
+      <td>AC7731</td>
+      <td>2025-06-07</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>4acaa4</td>
+      <td>SAS1470</td>
+      <td>Sweden</td>
+      <td>2025-07-23 18:59:59</td>
+      <td>2025-07-23 18:59:59</td>
+      <td>11.4425</td>
+      <td>59.3263</td>
+      <td>3505.20</td>
+      <td>False</td>
+      <td>175.37</td>
+      <td>341.35</td>
+      <td>-4.88</td>
+      <td>3627.12</td>
+      <td>NaN</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>NaT</td>
+      <td>FL3053</td>
+      <td>2025-06-06 10:00:00</td>
+      <td>2025-06-06 17:15:00</td>
+      <td>JFK</td>
+      <td>CDG</td>
+      <td>RT5145</td>
+      <td>3625.0</td>
+      <td>International</td>
+      <td>Long-haul</td>
+      <td>435.0</td>
+      <td>on-time</td>
+      <td></td>
+      <td>0</td>
+      <td>19482.63</td>
+      <td>AC2035</td>
+      <td>2025-06-06</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>400fda</td>
+      <td>EZY65HN</td>
+      <td>United Kingdom</td>
+      <td>2025-07-08 16:28:37</td>
+      <td>2025-07-08 16:28:38</td>
+      <td>-2.9426</td>
+      <td>48.0803</td>
+      <td>5951.22</td>
+      <td>True</td>
+      <td>234.21</td>
+      <td>190.25</td>
+      <td>0.00</td>
+      <td>6438.90</td>
+      <td>5421.0</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>2025-07-08 16:28:42</td>
+      <td>FL3069</td>
+      <td>2025-06-20 19:30:00</td>
+      <td>2025-06-20 22:00:00</td>
+      <td>BOS</td>
+      <td>MIA</td>
+      <td>RT6474</td>
+      <td>1258.0</td>
+      <td>Domestic</td>
+      <td>Medium-haul</td>
+      <td>150.0</td>
+      <td>on-time</td>
+      <td>None</td>
+      <td>0</td>
+      <td>7403.01</td>
+      <td>AC2808</td>
+      <td>2025-06-20</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>a48850</td>
+      <td>UPS285</td>
+      <td>United States</td>
+      <td>2025-07-23 19:00:42</td>
+      <td>2025-07-23 19:00:42</td>
+      <td>12.2847</td>
+      <td>58.1024</td>
+      <td>10066.02</td>
+      <td>False</td>
+      <td>228.58</td>
+      <td>165.93</td>
+      <td>0.33</td>
+      <td>10332.72</td>
+      <td>NaN</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>NaT</td>
+      <td>FL3206</td>
+      <td>2025-07-23 04:30:00</td>
+      <td>2025-07-23 21:23:00</td>
+      <td>SFO</td>
+      <td>SIN</td>
+      <td>RT7144</td>
+      <td>8446.0</td>
+      <td>International</td>
+      <td>Long-haul</td>
+      <td>1013.0</td>
+      <td>on-time</td>
+      <td></td>
+      <td>0</td>
+      <td>32381.49</td>
+      <td>AC5517</td>
+      <td>2025-07-23</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>347302</td>
+      <td>BCS5525</td>
+      <td>Spain</td>
+      <td>2025-07-23 18:59:59</td>
+      <td>2025-07-23 18:59:59</td>
+      <td>14.2916</td>
+      <td>48.2368</td>
+      <td>624.84</td>
+      <td>False</td>
+      <td>69.52</td>
+      <td>267.46</td>
+      <td>-3.58</td>
+      <td>693.42</td>
+      <td>NaN</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>NaT</td>
+      <td>FL3362</td>
+      <td>2025-06-08 05:00:00</td>
+      <td>2025-06-08 07:02:00</td>
+      <td>SEA</td>
+      <td>DEN</td>
+      <td>RT3577</td>
+      <td>1024.0</td>
+      <td>Domestic</td>
+      <td>Medium-haul</td>
+      <td>122.0</td>
+      <td>on-time</td>
+      <td></td>
+      <td>0</td>
+      <td>7515.34</td>
+      <td>AC2692</td>
+      <td>2025-06-08</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>4cac85</td>
+      <td>RYR466M</td>
+      <td>Ireland</td>
+      <td>2025-07-23 19:00:13</td>
+      <td>2025-07-23 19:00:13</td>
+      <td>4.5332</td>
+      <td>42.9091</td>
+      <td>11277.60</td>
+      <td>False</td>
+      <td>199.41</td>
+      <td>202.93</td>
+      <td>0.00</td>
+      <td>11750.04</td>
+      <td>4103.0</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>NaT</td>
+      <td>FL3534</td>
+      <td>2025-05-06 20:45:00</td>
+      <td>2025-05-07 01:42:00</td>
+      <td>JFK</td>
+      <td>LAX</td>
+      <td>RT6027</td>
+      <td>2475.0</td>
+      <td>Domestic</td>
+      <td>Medium-haul</td>
+      <td>297.0</td>
+      <td>delayed</td>
+      <td>supplier</td>
+      <td>35</td>
+      <td>10099.24</td>
+      <td>AC2692</td>
+      <td>2025-05-06</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>3007ab</td>
+      <td>ITL601</td>
+      <td>Italy</td>
+      <td>2025-07-23 19:01:05</td>
+      <td>2025-07-23 19:01:05</td>
+      <td>14.2759</td>
+      <td>47.2552</td>
+      <td>11887.20</td>
+      <td>False</td>
+      <td>184.53</td>
+      <td>191.09</td>
+      <td>0.00</td>
+      <td>12283.44</td>
+      <td>1000.0</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>NaT</td>
+      <td>FL3534</td>
+      <td>2025-05-25 14:45:00</td>
+      <td>2025-05-25 18:26:00</td>
+      <td>SFO</td>
+      <td>ORD</td>
+      <td>RT6628</td>
+      <td>1846.0</td>
+      <td>Domestic</td>
+      <td>Medium-haul</td>
+      <td>221.0</td>
+      <td>on-time</td>
+      <td></td>
+      <td>0</td>
+      <td>8570.56</td>
+      <td>AC4392</td>
+      <td>2025-05-25</td>
+      <td>3</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>

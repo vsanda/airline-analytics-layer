@@ -1,0 +1,13 @@
+flight_month,category,monthly_cost,monthly_delay_count,avg_unit_cost,status_flag
+2025-07-01,catering,2765992.7000000007,31.0,9260.87,investigate
+2025-07-01,maintenance,3603429.64,31.0,11190.08,investigate
+2025-07-01,fuel,652588.5600000005,31.0,2091.63,investigate
+2025-06-01,fuel,1348531.920000001,59.0,2309.13,investigate
+2025-06-01,catering,4772983.409999998,59.0,8277.6,investigate
+2025-06-01,maintenance,6442745.479999997,59.0,10568.1,investigate
+2025-05-01,catering,2533883.560000001,36.0,8357.12,investigate
+2025-05-01,fuel,511604.3300000003,36.0,1645.03,investigate
+2025-05-01,maintenance,3379207.26,36.0,10927.59,investigate
+2025-04-01,catering,444432.09,4.0,8729.05,fine
+2025-04-01,maintenance,598001.91,4.0,10929.37,investigate
+2025-04-01,fuel,144188.0,4.0,2621.6,fine
